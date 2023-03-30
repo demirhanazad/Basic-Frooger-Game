@@ -1,12 +1,14 @@
-//BİSMİLLAHİRRAHMANİRRAHİM
+/*
+BİSMİLLAHİRRAHMANİRRAHİM
+Demirhan Adıgüzel
+Frogger Game
+*/
 #include <stdio.h>
 #include <conio.h>
 #include <windows.h>
 #include <time.h>
 #include <stdlib.h>
 #include <string.h>
-//Demirhan Adıgüzel
-//Frogger Game
 
 //x y
 int saha[80][23] = { 0 };

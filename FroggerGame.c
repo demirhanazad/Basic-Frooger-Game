@@ -1567,18 +1567,17 @@ void giris() {
 
     while (1) {
         gotoxy(20, 9); printf("Frogger Game Login System\n");
-        gotoxy(20, 10); printf("Please Enter your LoginID\n");
+        gotoxy(20, 10); printf("Please Enter your Name\n");
         gotoxy(20, 12); gets_s(LoginId);
         gotoxy(20, 13); printf("Please Enter your Password\n");
         gotoxy(20, 15); gets_s(Password);
         if (strcmp(LoginId, "demirhan") == 0) {
             if (strcmp(Password, "adiguzel") == 0) {
-                gotoxy(20, 15); printf("Hey,You are Welcome\n");
                 break;
             }
         }
         else {
-            gotoxy(20, 7); printf("Try Again!!\n");
+            gotoxy(20, 7); printf("Try Again!\n");
         }
     }
     oyun();
